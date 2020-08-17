@@ -1,0 +1,26 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack src/js/app.js -o dist/bundle.js --watch --config webpack.config.js --mode=development",
+    "build": "webpack src/js/app.js -o dist/bundle.js --config webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbayarkhuu/webpack-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbayarkhuu/webpack-example/issues"
+  },
+  "homepage": "https://github.com/lbayarkhuu/webpack-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
