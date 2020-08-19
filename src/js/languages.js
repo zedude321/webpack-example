@@ -6,4 +6,4 @@ const languages =  [
     'Mongolian: Sainuu'
 ]
 
-export const;
+export { languages };
