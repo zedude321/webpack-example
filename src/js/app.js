@@ -1,3 +1,6 @@
+import { randomButton, hello } from './finder'
+import { languages } from './languages'
+
 randomButton.addEventListener('click', changeLanguage);
 
 function changeLanguage() {
